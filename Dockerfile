@@ -2,6 +2,8 @@ FROM node:lts-alpine as builder
 
 ADD . .
 
+WORKDIR /app
+
 RUN yarn
 
 FROM node:lts-alpine as app
