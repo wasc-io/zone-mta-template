@@ -4,7 +4,7 @@ WORKDIR /app
 ADD . .
 
 
-RUN yarn
+RUN --mount=type=cache,target=/usr/local/share/.cache/yarn/v6 yarn
 
 FROM node:lts-alpine as app
 
