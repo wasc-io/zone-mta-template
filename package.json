@@ -1,5 +1,5 @@
 {
-    "name": "zone-mta-template",
+    "name": "@wasc/zone-mta-template",
     "private": true,
     "version": "1.7.0",
     "description": "ZoneMTA example application",
@@ -7,6 +7,14 @@
     "scripts": {
         "start": "node index.js --config=config/zonemta.toml",
         "config": "NODE_CONFIG_ONLY=true npm start"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "release": {
+        "branches": [
+            "master"
+        ]
     },
     "repository": {
         "type": "git",
