@@ -1,16 +1,8 @@
 FROM node:lts-alpine as builder
 
-ARG version=2.4.2
-
-RUN apk add --no-cache git python make g++
-
-WORKDIR /app
-
-RUN git clone https://github.com/wasc-io/zone-mta-template ./
+ADD . .
 
 RUN yarn
-RUN yarn add @wasc/zonemta-wildduck
-
 
 FROM node:lts-alpine as app
 
