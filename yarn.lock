@@ -194,10 +194,10 @@
     "@types/node" "*"
     "@types/webidl-conversions" "*"
 
-"@wasc/zone-mta@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@wasc/zone-mta/-/zone-mta-3.4.0.tgz#3b9c6a4c5fa0bb8006f3349b072a01e7fff83c13"
-  integrity sha512-QeVopvga4KnYJ59e1TW9uIuSp3Gk9z3RLOFhmE0MHmkG2Ye8EGnaU1Zm//CpAoq8/2rUOzjkx79Y1h1JAth5pQ==
+"@wasc/zone-mta@3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@wasc/zone-mta/-/zone-mta-3.5.0.tgz#309d5aac09007d237b81669c2bf1099496e50fd7"
+  integrity sha512-T1kwPP4bnRaiNCJOmyNVppDYEqUyINGhO4bhXFMTLXzWINIzeB99DHiqvntvtcYGfuNb+qOtRcxXVBdwxg9woA==
   dependencies:
     crc-32 "1.2.2"
     dnscache "1.0.2"
